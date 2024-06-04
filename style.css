@@ -1,0 +1,277 @@
+.dummy {
+    font-family: Clash Display;
+}
+/*dark mode*/
+root .dark-mode {
+    --bg-main:rgba(0,0,1);
+    --bg-primary: white;rgba(0,0,1);
+
+
+    background: rgba(255, 85, 85, 1);
+    background: rgba(0,0,1);
+    background: #ffffff;
+}
+*
+{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body .dark-mode{
+    font-family: Clash Display;
+    background-color: var(--bg-main);
+    color: var(--bg-primary)}
+    .dark-mode a{
+        color: var(--bg-primary);
+    }
+
+:root {
+    --bg-main: white;
+    --bg-primary: rgba(0,0,1);
+
+
+    background: rgba(255, 85, 85, 1);
+    background: rgba(0,0,1);
+    background: #ffffff;
+}
+*
+{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: Clash Display;
+    background-color: var(--bg-main);
+    color: var(--bg-primary)
+}
+.main-container{
+    width: 1090px;
+    top: 40px;
+    margin: auto;
+    padding: 42px;
+}
+nav{
+    width: Hug (378px)px;
+height: Hug (26px)px;
+top: 57px;
+left: 332px;
+gap: 24px;
+opacity: 0px;
+
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 24px;
+}
+nav ul  li a{
+    font-family: Clash Display;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+text-decoration: none;
+color: black;
+}
+nav ul li a.active{
+    color: rgba(255, 85, 85, 1);
+    }
+    a.btn{
+        padding: ;
+top: 40px;
+left: 1085px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+font-family: Clash Display;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+display: inline-block;
+width: 88px;
+height: 28px;
+top: 56px;
+left: 1131px;
+text-decoration: none;
+transition: all 400ms; 
+    background-color: black;
+    color: #ffffff
+    
+}
+a.btn:hover{
+    background-color:rgba(255, 85, 85, 1);
+
+}
+/* hero section start */
+.hero-container {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 131px);
+}
+.hero2txt{
+    display:grid;
+    padding: 618 218;
+    font-family: Clash Display;
+font-size: 40px;
+font-weight: 500;
+line-height: 64px;
+text-align: left;
+position: absolute;
+
+width: 618px;
+height: 128px;
+top: 215px;
+left: 175px;
+gap: 0px;
+opacity: 0px;
+
+
+
+}
+.subtitle{
+font-family: Clash Display;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+width: 638px;
+height: 56px;
+top: 367px;
+left: 175px;
+opacity: 0.5px;
+}
+.hero-container .hero-image{
+    flex-basis: 175px;
+}
+.hero-container .hero-text{
+    flex-basis: 823px;
+
+}
+.hero-container .hero-image .her-bg-left{
+    position: absolute;
+    
+width: 317px;
+height: 230px;
+top: 152px;
+left: 341px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+/* hero section end */
+/* background images*/
+
+.her-bg-left{
+    position: absolute;
+    height: 230px;
+top: 152px;
+left: 341px;
+gap: 0px;
+opacity: 0px;
+
+}
+.navbar{
+    position: absolute;
+    width: 1090px;
+height: 60px;
+top: 40px;
+left: 175px;
+gap: 0px;
+opacity: 0px;
+
+}
+ .top{
+    position: absolute;
+    width: 249.25px;
+height: 504.32px;
+top: 180.51px;
+left: 771px;
+gap: 0px;
+opacity: 0px;
+angle: 15 deg;
+box-shadow: 48px 48px 100px 0px rgba(0, 0, 0, 0.2);
+
+}
+.middle{
+    position: absolute;
+    width: 249.59px;
+height: 505.02px;
+padding: 257px 893px;
+gap: 0px;
+opacity: 0px;
+angle: 15 deg;
+box-shadow: 48px 48px 100px 0px rgba(0, 0, 0, 0.2);
+}
+.bottom{
+    width: 725.49px;
+    height: 725.49px;
+    top: -115px;
+    left: -39px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+   /* position:absolute;
+    padding-top: 257px;
+    padding-left: 893px;
+    width: 249.25px;
+height: 504.32px;
+top: 137.51px;
+left: 193px;
+gap: 0px;
+opacity: 0px;
+
+box-shadow: 48px 48px 100px 0px rgba(0, 0, 0, 0.2)
+
+ .one{
+    width: 249.25px;
+height: 504.32px;
+top: 137.51px;
+left: 193px;
+gap: 0px;
+opacity: 0px;
+angle: 15 deg;
+
+}
+   
+.her-bg-right .two{
+    width: 223.76px;
+height: 484.15px;
+top: 264.45px;
+left: 908.6px;
+gap: 0px;
+opacity: 0px;
+angle: 15 deg;
+}
+ .three{
+
+width: 725.49px;
+height: 725.49px;
+top: -115px;
+left: -39px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid rgba(0, 0, 0, 1)*/
+
+}
+
+
+   .navbar .toggle-btn .toggle-layer {
+    width:6rem;
+    height: 4rem;
+    background-color: white;
+    display: inline-block;
+   }
+.toggle-ball{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+
